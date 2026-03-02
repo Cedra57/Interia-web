@@ -1,0 +1,60 @@
+.hero__section {
+  margin-bottom: 140px;
+}
+
+.hero__background_image {
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+
+@media (min-width: 768px) {
+  .hero__background-image  {
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero__background-image  {
+    height: 100vh; 
+  }
+}
+
+.hero__wrapper {
+  display: flex;
+  justify-content: end;
+  padding-top: 150px;
+
+}
+
+.hero__block {
+  text-align: end;
+  
+}
+
+.hero__block>h1 {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.hero__block>h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+@media (max-width: 1350px) {
+
+  .hero_wrapper {
+    padding-top: 70px;
+  }
+
+  .hero__block {
+    font-size: 30px;
+  }
+
+  .hero__block>h3 {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,46 @@
+@import url("https://use.typekit.net/njm4mkp.css");
+@import "tailwindcss";
+
+:root {
+  --background: #191d1d;
+  --foreground: #ffffff;
+  --index: calc(1vw + 1vh);
+  --transition: cubic-bezier(0.1, 0.7, 0, 1);
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #191d1d;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Nunito",sans-serif;
+}
+
+a:hover {
+  transition: color .2s ease-in;
+  color: #6D7D7D;
+
+}
+
+button:hover {
+  transition: color .2s ease-in;
+  color: #6D7D7D;
+
+}
+
+.container {
+  max-width: 1143px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1210px) {
+  .container  {
+    width: 800px; 
+  }
+}
